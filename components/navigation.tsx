@@ -169,10 +169,6 @@ export function Navigation() {
                         <AvatarImage
                           src="/user-avatar.jpg"
                           alt="User"
-                          onError={(e) => {
-                            const target = e.target as HTMLImageElement
-                            target.src = `/placeholder.svg?height=32&width=32&query=user+avatar`
-                          }}
                         />
                         <AvatarFallback>JD</AvatarFallback>
                       </Avatar>
