@@ -136,7 +136,10 @@ export default function AboutPage() {
                 alt="Artisan at work"
                 fill
                 className="object-cover rounded-lg"
-
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement
+                  target.src = "/artisan-working-on-craft.jpg"
+                }}
               />
             </div>
           </div>

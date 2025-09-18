@@ -123,6 +123,10 @@ export default function LandingPage() {
                     src={artisan.image || "/placeholder.svg"}
                     alt={artisan.name}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement
+                      target.src = `/placeholder.svg?height=400&width=400&query=${encodeURIComponent(artisan.craft + " artisan")}`
+                    }}
                   />
                 </div>
                 <CardContent className="p-6">
