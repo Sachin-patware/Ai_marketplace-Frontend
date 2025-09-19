@@ -56,7 +56,7 @@ export default function ArtisanDashboard() {
       views: 234,
       likes: 18,
       status: "Active",
-      image: "/handwoven-silk-scarf.jpg",
+      image: "/ashlee-marie-nrMLIY3VcpI-unsplash.jpg",
     },
     {
       id: 2,
@@ -65,7 +65,7 @@ export default function ArtisanDashboard() {
       views: 189,
       likes: 24,
       status: "Active",
-      image: "/ceramic-tea-set.jpg",
+      image: "/huy-bui-gvFli0bHBNA-unsplash.jpg",
     },
     {
       id: 3,
@@ -74,7 +74,7 @@ export default function ArtisanDashboard() {
       views: 156,
       likes: 12,
       status: "Draft",
-      image: "/wooden-jewelry-box.jpg",
+      image: "/lucas-santos-QXg0bx77re0-unsplash.jpg",
     },
   ]
 

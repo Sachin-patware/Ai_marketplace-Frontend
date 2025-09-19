@@ -272,14 +272,14 @@ export default function ArtisansPage() {
                               <MessageCircle className="w-4 h-4 mr-2" />
                               Contact
                             </Button>
-                            <Link href={`/artisan/${artisan.id}`}>
+                            
                               <Button
                                 size="sm"
                                 className="bg-orange-500 hover:bg-orange-600"
                               >
                                 View Profile
                               </Button>
-                            </Link>
+                            
                           </div>
                         </div>
                       </div>
