@@ -69,6 +69,8 @@ export function Navigation() {
           <Link href="/" className="flex items-center space-x-2">
             <Sparkles className="h-8 w-8 text-orange-600" />
             <span className="text-xl font-bold text-gray-900">ArtisanAI</span>
+            &nbsp;  
+          &nbsp;
           </Link>
 
           {/* Desktop Navigation */}

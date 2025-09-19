@@ -56,30 +56,7 @@ export function Footer() {
 
   return (
     <footer className="bg-gray-900 text-white">
-      {/* Newsletter Section */}
-      <div className="border-b border-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            <div>
-              <h3 className="text-2xl font-bold mb-2">Stay Connected with Artisans</h3>
-              <p className="text-gray-400">
-                Get the latest updates on new products, artisan stories, and exclusive offers delivered to your inbox.
-              </p>
-            </div>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Input
-                placeholder="Enter your email address"
-                className="flex-1 bg-gray-800 border-gray-700 text-white placeholder:text-gray-400"
-              />
-              <Button className="bg-orange-600 hover:bg-orange-700 text-white px-8">
-                <Mail className="h-4 w-4 mr-2" />
-                Subscribe
-              </Button>
-            </div>
-          </div>
-        </div>
-      </div>
-
+   
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
@@ -162,32 +139,6 @@ export function Footer() {
                   <span className="sr-only">{social.label}</span>
                 </Link>
               ))}
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Trust Badges */}
-      <div className="border-t border-gray-800 bg-gray-950">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
-            <div className="flex items-center space-x-2 text-gray-400">
-              <div className="w-8 h-6 bg-green-600 rounded flex items-center justify-center">
-                <span className="text-white text-xs font-bold">SSL</span>
-              </div>
-              <span className="text-sm">Secure Payments</span>
-            </div>
-            <div className="flex items-center space-x-2 text-gray-400">
-              <div className="w-8 h-6 bg-blue-600 rounded flex items-center justify-center">
-                <span className="text-white text-xs font-bold">AI</span>
-              </div>
-              <span className="text-sm">AI-Powered Platform</span>
-            </div>
-            <div className="flex items-center space-x-2 text-gray-400">
-              <div className="w-8 h-6 bg-orange-600 rounded flex items-center justify-center">
-                <span className="text-white text-xs font-bold">24/7</span>
-              </div>
-              <span className="text-sm">Customer Support</span>
             </div>
           </div>
         </div>

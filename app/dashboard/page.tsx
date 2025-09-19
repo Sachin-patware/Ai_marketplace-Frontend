@@ -93,10 +93,6 @@ export default function ArtisanDashboard() {
                 <Plus className="h-4 w-4 mr-2" />
                 Add Product
               </Button>
-              <Button variant="outline" className="border-orange-300 text-orange-700 hover:bg-orange-50 bg-transparent">
-                <Settings className="h-4 w-4 mr-2" />
-                Settings
-              </Button>
             </div>
           </div>
         </div>
@@ -124,19 +120,14 @@ export default function ArtisanDashboard() {
         </div>
 
         <Tabs defaultValue="overview" className="space-y-6">
-          <TabsList className="grid w-full grid-cols-4 bg-white border border-orange-200">
+          <TabsList className="grid w-full grid-cols-3 bg-white border border-orange-200">
             <TabsTrigger
               value="overview"
               className="data-[state=active]:bg-orange-100 data-[state=active]:text-orange-700"
             >
               Overview
             </TabsTrigger>
-            <TabsTrigger
-              value="ai-tools"
-              className="data-[state=active]:bg-orange-100 data-[state=active]:text-orange-700"
-            >
-              AI Tools
-            </TabsTrigger>
+       
             <TabsTrigger
               value="products"
               className="data-[state=active]:bg-orange-100 data-[state=active]:text-orange-700"

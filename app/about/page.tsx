@@ -130,15 +130,7 @@ export default function AboutPage() {
                 </Badge>
               </div>
             </div>
-            <div className="relative h-96">
-              <Image
-                src="/artisan-working.jpg"
-                alt="Artisan at work"
-                fill
-                className="object-cover rounded-lg"
-               
-              />
-            </div>
+          
           </div>
         </div>
       </section>
@@ -169,63 +161,6 @@ export default function AboutPage() {
                 </CardContent>
               </Card>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Team Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Meet Our Team</h2>
-            <p className="text-xl text-gray-600">Passionate individuals dedicated to empowering artisans worldwide.</p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {team.map((member, index) => (
-              <Card key={index} className="text-center p-6">
-                <CardContent className="p-0">
-                  <div className="w-24 h-24 mx-auto mb-4 relative">
-                    <Image
-                      src={member.image || "/placeholder.svg?height=96&width=96&query=team+member+avatar"}
-                      alt={member.name}
-                      fill
-                      className="object-cover rounded-full"
-                    />
-                  </div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-1">{member.name}</h3>
-                  <p className="text-orange-600 font-medium mb-3">{member.role}</p>
-                  <p className="text-gray-600 text-sm">{member.bio}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-orange-500 to-amber-500">
-        <div className="container mx-auto px-4 max-w-4xl text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">Ready to Join Our Community?</h2>
-          <p className="text-xl text-orange-100 mb-8">
-            Whether you're an artisan looking to share your craft or a customer seeking authentic handmade products,
-            we'd love to have you as part of our global community.
-          </p>
-          <div className="flex justify-center gap-4">
-            <Link href="/onboarding">
-              <Button size="lg" variant="secondary" className="bg-white text-orange-600 hover:bg-gray-100">
-                Become an Artisan
-              </Button>
-            </Link>
-            <Link href="/marketplace">
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white text-white hover:bg-white hover:text-orange-600 bg-transparent"
-              >
-                Start Shopping
-              </Button>
-            </Link>
           </div>
         </div>
       </section>
