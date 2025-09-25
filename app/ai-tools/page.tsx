@@ -26,7 +26,7 @@ import {
   Square,
 } from "lucide-react"
 
-const BASE_URL = "http://localhost:5000"
+const BASE_URL = "https://gemini-express-backend.onrender.com"
 
 export default function AITools() {
   const [descriptionForm, setDescriptionForm] = useState({
