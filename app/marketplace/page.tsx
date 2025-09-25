@@ -49,7 +49,7 @@ export default function MarketplacePage() {
       location: "India",
       category: "Textiles",
       tags: ["Sustainable", "Silk"],
-      image: "/Handwoven Silk Scarf.jpeg",
+      image: "/mohammad-hassan-taheri-tUZeoWQ_MXQ-unsplash.jpg",
       inStock: true,
     },
     {
@@ -62,7 +62,7 @@ export default function MarketplacePage() {
       location: "Mexico",
       category: "Ceramics",
       tags: ["Handmade", "Ceramic"],
-      image: "/ceramic tea.jpeg",
+      image: "/huy-bui-gvFli0bHBNA-unsplash.jpg",
       inStock: true,
     },
     {
@@ -75,7 +75,7 @@ export default function MarketplacePage() {
       location: "Nigeria",
       category: "Woodwork",
       tags: ["Carved", "Storage"],
-      image: "/Wooden Jewelry Box.jpeg",
+      image: "/lucas-santos-QXg0bx77re0-unsplash.jpg",
       inStock: true,
     },
     {
@@ -88,7 +88,7 @@ export default function MarketplacePage() {
       location: "Peru",
       category: "Textiles",
       tags: ["Alpaca", "Warm"],
-      image: "/Alpaca Wool Blanket.jpeg",
+      image: "ashlee-marie-nrMLIY3VcpI-unsplash.jpg",
       inStock: true,
     },
     {
@@ -101,7 +101,7 @@ export default function MarketplacePage() {
       location: "Nepal",
       category: "Metalwork",
       tags: ["Meditation", "Brass"],
-      image: "/Brass Singing Bowl.jpeg",
+      image: "/content-pixie-BSIwnOTEcXQ-unsplash.jpg",
       inStock: false,
     },
     {
@@ -114,7 +114,7 @@ export default function MarketplacePage() {
       location: "Morocco",
       category: "Leather",
       tags: ["Leather", "Durable"],
-      image: "/Leather Messenger Bag.jpeg",
+      image: "/alvaro-serrano-pFLNV4gkXsc-unsplash.jpg",
       inStock: true,
     },
   ];
